@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllActionsSuite">
+    <test name="AllActionsTest">
+        <classes>
+            <class name="Cloud_BS.HRMLoginTest_BS.java"/>
+            <class name="realdevice.RD_ClockAppTest_BS.java"/>
+            
+        </classes>
+    </test>
+</suite>
