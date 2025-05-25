@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRM Suite">
+    <test name="Functional Tests">
+        <classes>
+            <class name="tests1.logintest"/>
+            <class name="tests1.searchtest"/> 
+            <class name="tests1.RegisterTest"/>
+            
+        </classes>
+    </test>
+</suite>

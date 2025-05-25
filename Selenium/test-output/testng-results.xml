@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-23T19:18:47 IST" name="HRM Suite" finished-at="2025-05-23T19:20:31 IST" duration-ms="103993">
+    <groups>
+    </groups>
+    <test started-at="2025-05-23T19:18:47 IST" name="Functional Tests" finished-at="2025-05-23T19:20:31 IST" duration-ms="103993">
+      <class name="tests1.searchtest">
+        <test-method is-config="true" signature="setupLogging()[pri:0, instance:tests1.searchtest@1a677343]" started-at="2025-05-23T19:19:32 IST" name="setupLogging" finished-at="2025-05-23T19:19:32 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogging -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests1.searchtest@1a677343]" started-at="2025-05-23T19:19:32 IST" name="launchApp" finished-at="2025-05-23T19:19:39 IST" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="SearchTest()[pri:0, instance:tests1.searchtest@1a677343]" started-at="2025-05-23T19:19:39 IST" name="SearchTest" finished-at="2025-05-23T19:20:01 IST" duration-ms="21852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests1.searchtest@1a677343]" started-at="2025-05-23T19:20:01 IST" name="tearDown" finished-at="2025-05-23T19:20:04 IST" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=searchtest.SearchTest()[pri:0, instance:tests1.searchtest@1a677343] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests1.searchtest -->
+      <class name="tests1.RegisterTest">
+        <test-method is-config="true" signature="setupLogging()[pri:0, instance:tests1.RegisterTest@15de0b3c]" started-at="2025-05-23T19:20:04 IST" name="setupLogging" finished-at="2025-05-23T19:20:04 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogging -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests1.RegisterTest@15de0b3c]" started-at="2025-05-23T19:20:04 IST" name="launchApp" finished-at="2025-05-23T19:20:11 IST" duration-ms="7230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="registerNewUser()[pri:0, instance:tests1.RegisterTest@15de0b3c]" started-at="2025-05-23T19:20:11 IST" name="registerNewUser" finished-at="2025-05-23T19:20:28 IST" duration-ms="17070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests1.RegisterTest@15de0b3c]" started-at="2025-05-23T19:20:28 IST" name="tearDown" finished-at="2025-05-23T19:20:31 IST" duration-ms="2905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewUser status=SUCCESS method=RegisterTest.registerNewUser()[pri:0, instance:tests1.RegisterTest@15de0b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests1.RegisterTest -->
+      <class name="tests1.logintest">
+        <test-method is-config="true" signature="setupLogging()[pri:0, instance:tests1.logintest@1fa121e2]" started-at="2025-05-23T19:18:47 IST" name="setupLogging" finished-at="2025-05-23T19:18:47 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogging -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests1.logintest@1fa121e2]" started-at="2025-05-23T19:18:47 IST" name="launchApp" finished-at="2025-05-23T19:18:55 IST" duration-ms="8332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validLoginTest()[pri:0, instance:tests1.logintest@1fa121e2]" started-at="2025-05-23T19:18:55 IST" name="validLoginTest" finished-at="2025-05-23T19:19:29 IST" duration-ms="33215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests1.logintest@1fa121e2]" started-at="2025-05-23T19:19:29 IST" name="tearDown" finished-at="2025-05-23T19:19:32 IST" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=logintest.validLoginTest()[pri:0, instance:tests1.logintest@1fa121e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests1.logintest -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- HRM Suite -->
+</testng-results>

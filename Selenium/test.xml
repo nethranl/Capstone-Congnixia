@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllActionsSuite">
+    <test name="AllActionsTest">
+        <classes>
+            <class name="action.alerthandle"/>
+            <class name="action.AmazonWishList"/>
+            <class name="action.iframeclass"/>
+            <class name="action.window"/>
+        </classes>
+    </test>
+</suite>
